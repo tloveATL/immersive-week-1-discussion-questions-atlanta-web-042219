@@ -6,7 +6,7 @@ Take 30 minutes and answer the following questions together with your group. Tak
 
 ## Questions
 
-1. What does the below method return?
+1 . What does the below method return?
 
 ```ruby
 def greet(name)
@@ -15,7 +15,7 @@ end
 greet("Steven") #=> ???
 ```
 
-2. What does this method return?
+2 . What does this method return?
 
 ```ruby
 def hate_steven?(name)
@@ -27,13 +27,13 @@ def hate_steven?(name)
 end
 ```
 
-3. How would you select all of the words that start with the letter "a" from the below array?
+3 . How would you select all of the words that start with the letter "a" from the below array?
 
 ```ruby
 ["apple", "pear", "face", "champagne", "palm tree", "aardvark", "pineapple"]
 ```
 
-4. Write a method that takes in an argument of a sentence and returns the
+4 . Write a method that takes in an argument of a sentence and returns the
 number of words in the sentence
 
 ```ruby
@@ -41,7 +41,7 @@ word_count("Hi, isn't this a great and interesting sentence????")
  # => 8
 ```
 
-5. What will the following method return?
+5 . What will the following method return?
 
 ```ruby
 def rude_greeting(name=nil)
@@ -50,7 +50,7 @@ def rude_greeting(name=nil)
 end
 ```
 
-6. What will the following `puts`?
+6 . What will the following `puts`?
 
 ```ruby
 best_animal = "cat"
@@ -59,7 +59,7 @@ puts favorite_animal
 # => ?
 ```
 
-7. What will the following `puts`?
+7 . What will the following `puts`?
 
 ```ruby
 def my_favorite_animal
@@ -71,13 +71,13 @@ best_animal = my_favorite_animal
 puts best_animal
 ```
 
-8. What error, if any, will the following code raise?
+8 . What error, if any, will the following code raise?
 
 ```ruby
 "Blink" + 182
 ```
 
-9. How would you `puts` out any and all foods that are delicious?
+9 . How would you `puts` out any and all foods that are delicious?
 
 ```ruby
 foods = {"pie" => "delicious", "broccoli" => "not delicicious",
@@ -85,9 +85,9 @@ foods = {"pie" => "delicious", "broccoli" => "not delicicious",
 "peanut butter" => "delicious"}
 ```
 
-10. Delete all elements of the `foods` hash that are *not* delicious.
+10 . Delete all elements of the `foods` hash that are *not* delicious.
 
-11. What is the return value of this method?
+11 . What is the return value of this method?
 ```ruby
   characters = ["Daenerys Targaryen", "Jon Snow" ,"Arya Stark", "Tyrion Lannister", "Sansa Stark", "Cersei Lannister", "Margaery Tyrell"]
 
@@ -98,7 +98,7 @@ foods = {"pie" => "delicious", "broccoli" => "not delicicious",
   end
 ```
 
-12. Write a method that `puts` out a random Archer quote.
+12 . Write a method that `puts` out a random Archer quote.
 ```ruby
   archer = {
       "name" => "Sterling Mallory Archer",
