@@ -2,9 +2,9 @@
 
 ## Instructions
 
-Take 30 minutes and answer the following questions together with your group. Take turns playing around with the code provided in Pry or IRB. 
+Take 30 minutes and answer the following questions together with your group. Take turns playing around with the code provided in Pry or IRB.
 
-## Questions 
+## Questions
 
 1. What does the below method return?
 
@@ -19,12 +19,12 @@ greet("Steven") #=> ???
 
 ```ruby
 def hate_steven?(name)
-  if name == "Steven" 
+  if name == "Steven"
     "OMG He's the worst"
   else
     "You cool"
   end
-end 
+end
 ```
 
 3. How would you select all of the words that start with the letter "a" from the below array?
@@ -33,7 +33,7 @@ end
 ["apple", "pear", "face", "champagne", "palm tree", "aardvark", "pineapple"]
 ```
 
-4. Write a method that takes in an argument of a sentence and returns the 
+4. Write a method that takes in an argument of a sentence and returns the
 number of words in the sentence
 
 ```ruby
@@ -80,14 +80,32 @@ puts best_animal
 9. How would you `puts` out any and all foods that are delicious?
 
 ```ruby
-foods = {"pie" => "delicious", "broccoli" => "not delicicious", 
-"carrots" => "not delicious", "apples" => "delicious", 
+foods = {"pie" => "delicious", "broccoli" => "not delicicious",
+"carrots" => "not delicious", "apples" => "delicious",
 "peanut butter" => "delicious"}
 ```
 
-10. Delete all elements of the `foods` hash that are *not* delicious. 
+10. Delete all elements of the `foods` hash that are *not* delicious.
 
+11. What is the return value of this method?
+```ruby
+  characters = ["Daenerys Targaryen", "Jon Snow",
+    "Arya Stark", "Tyrion Lannister",
+    "Sansa Stark", "Cersei Lannister", "Margaery Tyrell"]
 
+  def downcase_names(characters)
+      characters.each do |names|
+        names.downcase
+      end
+  end
+```
 
-
-
+12. Write a method that `puts` out a random Archer quote.
+```ruby
+  archer = {
+      "name" => "Sterling Mallory Archer",
+      "co-workers"=> ["Lana Kane", "Cyril Figgis", "Cheryl Tunt", "Pam Poovey", "Dr Krieger"],
+      "favorite_drink" => "Bloody Mary",
+      "Quotes" => ["I swear to god, I had something for this", "Phrasing", "Boop", "Danger Zone", "Read a book", "Do you not?" "Can't or won't?"] 
+  }
+```
