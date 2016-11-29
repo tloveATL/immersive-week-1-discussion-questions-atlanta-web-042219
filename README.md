@@ -80,7 +80,7 @@ puts best_animal
 9 . How would you `puts` out any and all foods that are delicious?
 
 ```ruby
-foods = {"pie" => "delicious", "broccoli" => "not delicicious",
+foods = {"pie" => "delicious", "broccoli" => "not delicious",
 "carrots" => "not delicious", "apples" => "delicious",
 "peanut butter" => "delicious"}
 ```
@@ -107,3 +107,5 @@ foods = {"pie" => "delicious", "broccoli" => "not delicicious",
       "Quotes" => ["I swear to god, I had something for this", "Phrasing", "Boop", "Danger Zone", "Read a book", "Do you not?", "Can't or won't?"]
   }
 ```
+
+<p class='util--hide'>View <a href='https://learn.co/lessons/immersive-week-1-discussion-questions'>Immersive Week 1 Discussion Questions</a> on Learn.co and start learning to code for free.</p>
