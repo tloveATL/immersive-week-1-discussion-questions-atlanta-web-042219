@@ -12,7 +12,7 @@ Take 30 minutes and answer the following questions together with your group. Tak
 def greet(name)
   puts "Hello, #{name}"
 end
-greet("Steven") #=> ???
+greet("Steven") #=> ?
 ```
 
 2 . What does this method return?
@@ -37,7 +37,7 @@ end
 number of words in the sentence
 
 ```ruby
-word_count("Hi, isn't this a great and interesting sentence????")
+word_count("Hi, isn't this a great and interesting sentence??")
  # => 8
 ```
 
