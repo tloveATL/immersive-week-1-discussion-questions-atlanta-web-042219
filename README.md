@@ -92,8 +92,8 @@ foods = {"pie" => "delicious", "broccoli" => "not delicious",
   character_names = ["Daenerys Targaryen", "Jon Snow" ,"Arya Stark", "Tyrion Lannister", "Sansa Stark", "Cersei Lannister", "Margaery Tyrell"]
 
   def downcase_all(array_of_strings)
-    array_of_strings.each do |name|
-      name.downcase
+    array_of_strings.each do |one_string|
+      one_string.downcase
     end
   end
 ```
