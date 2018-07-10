@@ -89,11 +89,11 @@ foods = {"pie" => "delicious", "broccoli" => "not delicious",
 
 11 . What is the return value of this method?
 ```ruby
-  characters = ["Daenerys Targaryen", "Jon Snow" ,"Arya Stark", "Tyrion Lannister", "Sansa Stark", "Cersei Lannister", "Margaery Tyrell"]
+  character_names = ["Daenerys Targaryen", "Jon Snow" ,"Arya Stark", "Tyrion Lannister", "Sansa Stark", "Cersei Lannister", "Margaery Tyrell"]
 
-  def downcase_names(characters)
-    characters.each do |names|
-      names.downcase
+  def downcase_all(array_of_strings)
+    array_of_strings.each do |one_string|
+      one_string.downcase
     end
   end
 ```
