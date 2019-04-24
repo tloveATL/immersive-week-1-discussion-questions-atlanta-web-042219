@@ -1,5 +1,5 @@
 # Week 1, Day 2 Morning Discussion Questions
-
+paouwehg0[qngh8anv 80[qauw t=7vht= a0weu thv92h5t] o[wrD]]
 ## Instructions
 
 Take 30 minutes and answer the following questions together with your group. Take turns playing around with the code provided in Pry or IRB.
